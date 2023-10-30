@@ -1,0 +1,532 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rudraneel || Task2 || PORTFOLIO</title>
+    <meta name="title" content="Rudraneel || Task2 || PORTFOLIO">
+    <meta name="description" content="This is a personal portfolio html template made by Rudraneel Ghosh">
+    <link rel="shortcut icon" href="./images/rglogo.png" type="image/svg+xml">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body onload="myFunc()">
+    <div id="loader"></div>
+
+    <header class="header" data-header>
+        <div class="container">
+
+            <a href="#" class="logo">
+                <img src="./images/rglogo.png" width="40" alt="Rudraneel Ghosh">
+            </a>
+
+            <nav class="navbar" data-navbar>
+
+                <div class="navbar-top">
+                    <a href="#" class="logo">
+                        <img src="./images/rglogo.png" width="180" height="39" alt="Rudraneel Ghosh">
+                    </a>
+                    <button class="nav-close-btn" aria-label="close menu" data-nav-toggler>
+                        <ion-icon name="close-outline" aria-hidden="true"></ion-icon>
+                    </button>
+                </div>
+
+                <ul class="navbar-list">
+
+                    <li>
+                        <a href="#" class="navbar-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#about" class="navbar-link">About</a>
+                    </li>
+
+
+                    <li>
+                        <a href="#project" class="navbar-link">Projects</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="navbar-link">Contact</a>
+                    </li>
+
+                </ul>
+
+                <div class="wrapper">
+                    <a href="mailto:rudraneelghoshrg@gmail.com" class="contact-link">rudraneelghoshrg@gmail.com</a>
+
+                    <a href="tel:8777644186" class="contact-link">8777644186</a>
+                </div>
+
+                <ul class="social-list">
+
+                    <li>
+                        <a href="https://www.linkedin.com/in/Rudraneel-Ghosh-81b71a175" class="social-link">
+                            <ion-icon name="logo-linkedin"></ion-icon>
+                        </a>
+                    </li>
+
+                    <li>
+                        <a href="https://wa.me/8777644186" class="social-link">
+                            <ion-icon name="logo-whatsapp"></ion-icon>
+                        </a>
+                    </li>
+                    <a href="tel:+918777644186" class="social-link">
+                        <li>
+                            <i class="fa fa-phone"></i>
+                        </li>
+                    </a>
+                    <a href="mailto:rudraneelghoshrg@gmail.com" class="social-link">
+                        <li>
+                            <i class="fa fa-envelope"></i>
+                        </li>
+                    </a>
+                    <li>
+                        <a href="https://www.instagram.com/rudra._.pvt/" class="social-link">
+                            <ion-icon name="logo-instagram"></ion-icon>
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+            <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+                <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+            </button>
+
+            <div class="overlay" data-nav-toggler data-overlay></div>
+
+        </div>
+    </header>
+
+    <main>
+        <article>
+
+            <section class="section hero" aria-label="home">
+                <div class="container">
+
+                    <figure class="hero-banner">
+                        <img src="./images/photo.jpg" alt="Rudraneel" class="w-100" data-reveal="top">
+                    </figure>
+
+                    <div class="hero-content">
+
+                        <h1 class="h1 hero-title" data-reveal="top" data-reveal-delay="0.5s">
+                            I'm User Interface Designer & Frontend developer.
+                        </h1>
+
+                        <p class="section-text" data-reveal="top" data-reveal-delay="0.75s">
+                            Greetings! I am Rudraneel Ghosh, a final year B.Tech student hailing from Kolkata, West
+                            Bengal. I am an interface designer and frontend developer deeply dedicated to my craft,
+                            driven by an unwavering passion for the work I do.
+                        </p>
+
+                        <div class="btn-wrapper" data-reveal="top" data-reveal-delay="1s">
+                            <a href="./images/Rudraneel_Ghosh_CSE_2024.pdf" class="btn btn-primary">See My Resume</a>
+
+                            <a href="#contact" class="btn btn-secondary">Contact Me</a>
+                        </div>
+
+                    </div>
+
+                </div>
+            </section>
+
+            <!-- 
+        - #ABOUT
+      -->
+
+            <section id="about" class="section about" aria-label="about">
+                <div class="container">
+
+                    <div class="wrapper">
+
+                        <div data-reveal="left">
+                            <h2 class="h2 section-title">What I Do?</h2>
+
+                            <p class="section-text">
+                                As a senior student nearing the completion of my academic journey, my proficiency in the
+                                realms of web design, web development, and mobile application development goes beyond
+                                mere tasks; it embodies my unwavering passion and demonstrated expertise.
+                            </p>
+                        </div>
+
+                        <ul class="progress-list" data-reveal="right">
+
+                            <li class="progress-item">
+
+                                <div class="label-wrapper">
+                                    <p>Web Designing</p>
+
+                                    <span class="span">90 %</span>
+                                </div>
+
+                                <div class="progress">
+                                    <div class="progress-fill" style="width: 90%; background-color: #c7b1dd"></div>
+                                </div>
+
+                            </li>
+
+                            <li class="progress-item">
+
+                                <div class="label-wrapper">
+                                    <p>Frontend Development</p>
+
+                                    <span class="span">80 %</span>
+                                </div>
+
+                                <div class="progress">
+                                    <div class="progress-fill" style="width: 80%; background-color: #8caeec"></div>
+                                </div>
+
+                            </li>
+
+                            <li class="progress-item">
+
+                                <div class="label-wrapper">
+                                    <p>Backend Development</p>
+
+                                    <span class="span">70 %</span>
+                                </div>
+
+                                <div class="progress">
+                                    <div class="progress-fill" style="width: 70%; background-color: #b0d4c1"></div>
+                                </div>
+
+                            </li>
+
+                        </ul>
+
+                    </div>
+
+                    <ul class="grid-list">
+
+                        <li data-reveal="bottom">
+                            <div class="about-card">
+
+                                <div class="card-icon">
+                                    <img src="./images/icon-1.svg" width="52" height="52" loading="lazy"
+                                        alt="web design icon">
+                                </div>
+
+                                <h3 class="h4 card-title">Website Designing</h3>
+
+                                <p class="card-text">
+                                    I specialize in creating intuitive UI that seamlessly merge aesthetics with
+                                    functionality. I ensure that websites I design are responsive.
+                                </p>
+
+                            </div>
+                        </li>
+
+
+                        <li data-reveal="bottom" data-reveal-delay="0.5s">
+                            <div class="about-card">
+
+                                <div class="card-icon">
+                                    <img src="./images/icon-3.svg" width="52" height="52" loading="lazy"
+                                        alt="web development icon">
+                                </div>
+
+                                <h3 class="h4 card-title">Frontend Development</h3>
+
+                                <p class="card-text">
+                                    Proficient in HTML, CSS, JavaScript and ReactJS, I bring designs to life, ensuring
+                                    pixel-perfect implementation and interactive features.
+                                </p>
+
+                            </div>
+                        </li>
+
+                        <li data-reveal="bottom" data-reveal-delay="0.5s">
+                            <div class="about-card">
+
+                                <div class="card-icon">
+                                    <img src="./images/icon-3.svg" width="52" height="52" loading="lazy"
+                                        alt="web development icon">
+                                </div>
+
+                                <h3 class="h4 card-title">Backend Development</h3>
+
+                                <p class="card-text">
+                                    I have expertise in server-side technologies like Node.js, Spring Boot enabling me
+                                    to
+                                    create dynamic and data-driven websites.
+
+                            </div>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- 
+        - #PROJECT
+      -->
+            <section id="project" class="section project" aria-labelledby="project-label">
+                <div class="one">
+                    <h1>Portfolio</h1>
+                </div>
+                <div class="container">
+
+                    <div class="title-wrapper" data-reveal="top">
+
+                        <div>
+                            <h2 class="h2 section-title" id="project-label">Latest Projects</h2>
+
+                            <p class="section-text">
+                                Check out some of my latest projects.
+                            </p>
+                        </div>
+
+                    </div>
+
+                    <ul class="grid-list">
+
+                        <li>
+                            <div class="project-card project-card-1" style="background-color: #f8f5fb">
+
+                                <div class="card-content" data-reveal="left">
+
+                                    <p class="card-tag" style="color: #a07cc5">Dynamic Visualizer</p>
+
+                                    <h3 class="h3 card-title">Sorting Visualizer</h3>
+
+                                    <p class="card-text">
+                                        Developed a Sorting Algorithm Visualization Project using React.js, showcasing
+                                        various sorting algorithms’ functionality through an interactive web
+                                        application. Created a dynamic and responsive user interface that allows users
+                                        to visualize the working of sorting algorithms like Bubble Sort, Selection Sort,
+                                        Insertion Sort etc in real time.
+                                    </p>
+
+                                    <a href="#" class="btn-text" style="color: #a07cc5">
+                                        <span class="span">See Project</span>
+
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                                <figure class="card-banner" data-reveal="right">
+                                    <img src="./images/visualizer.png" width="650" height="370" loading="lazy"
+                                        alt="Web Design" class="w-100">
+                                </figure>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-card project-card-2" style="background: #f1f5fd">
+
+                                <div class="card-content" data-reveal="left">
+
+                                    <p class=" card-tag" style="color: #3f78e0">Super WebApp</p>
+
+                                    <h3 class="h3 card-title">CampusNexus Project</h3>
+
+                                    <p class="card-text">
+                                        Our ongoing B.tech final year project focuses on monitoring fee payments and
+                                        providing relevant information to individual students. It prioritizes grades,
+                                        areas of interest, courses, and statistics. We’ve also integrated Razorpay’s
+                                        payment gateway for seamless and secure semester fee payments. I’m responsible
+                                        for the frontend part of this project
+                                    </p>
+
+                                    <a href="#" class="btn-text" style="color: #3f78e0">
+                                        <span class="span">See Project</span>
+
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                                <figure class="card-banner" data-reveal="right">
+                                    <img src="./images/cn.png" width="600" height="367" loading="lazy" alt="Web Design"
+                                        class="w-100">
+                                </figure>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-card project-card-3" style="background-color:#fcf4f6">
+
+                                <div class="card-content" data-reveal="left">
+
+                                    <p class=" card-tag" style="color: #7cb798">Web Design</p>
+
+                                    <h3 class="h3 card-title">TinDog - Landing Page</h3>
+
+                                    <p class="card-text">
+                                        TinDog Landing Page, crafted a playful and responsive landing page using HTML,
+                                        CSS, and JavaScript, emphasizing user-centric design, clean code, and fast
+                                        performance. Highlighting front-end skills and creativity.
+                                    </p>
+
+                                    <a href="#" class="btn-text" style="color: #7cb798">
+                                        <span class="span">See Project</span>
+
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                                <figure class="card-banner" data-reveal="right">
+                                    <img src="./images/td.png" width="600" height="367" loading="lazy"
+                                        alt="Web Design" class="w-100">
+                                </figure>
+
+                            </div>
+                        </li>
+
+                        <li>
+                            <div class="project-card project-card-4" style="background-color:#f5faf7">
+
+                                <div class="card-content" data-reveal="left">
+
+                                    <p class=" card-tag" style="color: #d16b86">Game Webapp</p>
+
+                                    <h3 class="h3 card-title">DrumKit Game</h3>
+
+                                    <p class="card-text">
+                                        Providing users with a simple and engaging platform to play various types of
+                                        drums. A responsive website that is developed using HTML, CSS, Bootstrap, and JS
+                                    </p>
+
+                                    <a href="#" class="btn-text" style="color: #d16b86">
+                                        <span class="span">See Project</span>
+
+                                        <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                                    </a>
+
+                                </div>
+
+                                <figure class="card-banner" data-reveal="right">
+                                    <img src="./images/dk.png" width="620" height="370" style="height: 20pc;"
+                                        loading="lazy" alt="Mobile Design" class="w-100">
+                                </figure>
+
+                            </div>
+                        </li>
+
+                    </ul>
+
+                </div>
+            </section>
+
+            <!-- 
+        - #CONTACT
+      -->
+
+            <section id="contact" class="section contact" aria-label="contact">
+                <div class="container">
+
+                    <div class="contact-card">
+
+                        <div class="contact-content" data-reveal="left">
+
+                            <div class="card-icon">
+                                <img src="./images/icon-5.svg" width="44" height="44" loading="lazy"
+                                    alt="envelop icon">
+                            </div>
+
+                            <h2 class="h2 section-title">CONTACT ME</h2>
+
+                            <p class="section-text">
+                                Have any questions? Reach out to me from
+                                this contact form and I will get back to you shortly.
+                            </p>
+
+                        </div>
+
+                        <form action="" class="contact-form" data-reveal="right">
+
+                            <div class="input-wrapper">
+                                <input type="text" name="name" placeholder="Name *" required class="input-field">
+
+                                <input type="email" name="email_address" placeholder="Email *" required
+                                    class="input-field">
+                            </div>
+
+                            <textarea name="message" placeholder="Message *" required class="input-field"></textarea>
+
+                            <button type="submit" class="btn btn-secondary">Send message</button>
+
+                        </form>
+
+                    </div>
+
+                </div>
+            </section>
+
+        </article>
+    </main>
+
+    <!-- #FOOTER -->
+
+    <footer class="footer">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="./images/rglogo.png" width="40" alt="Rudraneel Ghosh">
+            </a>
+            <p class="copyright">
+                2023 || Designed By Rudraneel Ghosh
+            </p>
+
+            <ul class="social-list">
+
+                <li>
+                    <a href="https://www.linkedin.com/in/Rudraneel-Ghosh-81b71a175" class="social-link">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://wa.me/8777644186" class="social-link">
+                        <ion-icon name="logo-whatsapp"></ion-icon>
+                    </a>
+                </li>
+                <a href="tel:+918777644186" class="social-link">
+                    <li>
+                        <i class="fa fa-phone"></i>
+                    </li>
+                </a>
+                <a href="mailto:rudraneelghoshrg@gmail.com" class="social-link">
+                    <li>
+                        <i class="fa fa-envelope"></i>
+                    </li>
+                </a>
+                <li>
+                    <a href="https://www.instagram.com/rudra._.pvt/" class="social-link">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+
+            </ul>
+
+        </div>
+    </footer>
+    <button class="scrollToTopBtn">☝️</button>
+    <script>
+        var preloader = document.getElementById('loader');
+
+        function myFunc() {
+            preloader.style.display = "none";
+        }
+    </script>
+    <script src="script.js"></script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
