@@ -306,7 +306,7 @@
   }
   
   .hero-banner .w-100 {
-    mask-image: url("./assets/img/pic.jpg");
+    /*mask-image: url("./assets/img/pic.jpg");*/
     border-radius: 50%;
     width: 100%;
     /* -webkit-mask-image: url("./assets/img/pic.jpg"); */
